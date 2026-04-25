@@ -18,7 +18,7 @@ public class Exercicio05 {
         String palavra = "";
 
         while (!palavra.equals("fim")) {
-            System.out.println("Escreva uma palavra: ");
+            System.out.println("Escreva uma palavra (fim para parar): ");
             palavra = sc.next();
             palavra = palavra.toLowerCase();
 

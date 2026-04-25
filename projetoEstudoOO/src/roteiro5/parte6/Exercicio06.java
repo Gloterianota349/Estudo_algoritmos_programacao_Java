@@ -20,8 +20,9 @@ public class Exercicio06 {
         char letra = 'a';
         
         while (letra != '0') {
-            System.out.println("Escreva uma letra: ");
+            System.out.println("Escreva uma letra (0 para parar): ");
             letra = sc.next().charAt(0);
+            letra = Character.toLowerCase(letra);
             int l = 0;
 
             if(letra != '0') {
@@ -33,7 +34,7 @@ public class Exercicio06 {
                     }
                 }
                 if(l==0) {
-                   System.out.println("A letra inserida não se encontra na palavra " + palavra); 
+                   System.out.println("A letra inserida não se encontra na palavra"); 
                 }
             }
         }
