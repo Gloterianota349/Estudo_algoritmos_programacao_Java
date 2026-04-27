@@ -21,6 +21,7 @@ public class Exercicio08 {
             char entradaConvertida[] = entrada.toCharArray();
             System.out.println("O que você deseja fazer? (1 - Codificar mensagem, 2 - Decodificar mensagem, 3 - Sair do programa)");
             escolha = sc.nextInt();
+            sc.nextLine();
             
             switch(escolha) {
                 case 1:

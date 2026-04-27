@@ -15,7 +15,7 @@ public class Exercicio10 {
         
         int matriz[][] = new int[5][5];
         
-        for(int i=0; i<matriz.length; i++) {
+        for (int i=0; i<matriz.length; i++) {
             for(int j=0; j<matriz[i].length; j++) {
                 System.out.println("Insira um número: ");
                 matriz[i][j] = sc.nextInt();
@@ -29,7 +29,7 @@ public class Exercicio10 {
         int linhaMaior = 0;
         int colunaMaior = 0;
         for (int i=0; i<matriz.length; i++) {
-            for (int j=1; j<matriz[i].length; j++) {
+            for (int j=0; j<matriz[i].length; j++) {
                 if (matriz[i][j]>maior) {
                     maior = matriz[i][j];
                     linhaMaior = i;
